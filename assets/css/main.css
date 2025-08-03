@@ -5110,7 +5110,7 @@ a img {
 }
 
 .footer {
-    background: #f5c62c; /* fallback for old browsers */
+    background: #f5c62c; /* fallback for old browsers as usla*/
     background: -webkit-linear-gradient(to right, #f5b700, #f1d97a); /* for older WebKit browsers */
     background: linear-gradient(to right, #f5b700, #f1d97a); /* standard gradient from left to right */
     
