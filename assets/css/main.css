@@ -4825,21 +4825,23 @@ a img {
 }
 
 #particles-js {
-    background: #1488CC;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #f5c62c; /* fallback */
+  background: -webkit-linear-gradient(to right, #f5c62c, #f1d97a); /* Chrome/Safari */
+  background: linear-gradient(to right, #f5c62c, #f1d97a); /* Modern browsers */
 
-    display: flex;
-    vertical-align: bottom;
-    width: 100%;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed
+  display: flex;
+  vertical-align: bottom;
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+
+
+
+
 
 #particles-js .particles-js-canvas-el {
     width: 100% !important;
@@ -5108,17 +5110,16 @@ a img {
 }
 
 .footer {
-    background: #1488CC;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #f5c62c; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5b700, #f1d97a); /* for older WebKit browsers */
+    background: linear-gradient(to right, #f5b700, #f1d97a); /* standard gradient from left to right */
+    
     padding: 10px 0;
     margin-top: 100px;
     text-align: center;
-    color: #fff
+    color: #fff;
 }
+
 
 .footer .love {
     color: red
